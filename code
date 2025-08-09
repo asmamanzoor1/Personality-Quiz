@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Personality Quiz Starter Code</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer>
+
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Asma's Personality Quiz</h1>
+		<p>Are you spongebob or squidward? Find out by taking this quiz that I created!</p>
+	</header>
+
+	<main>
+
+		<h2>Which room would you prefer?</h2>
+		<div class="question">
+
+			<div class="answer-choice">
+				<img src="assets/Cozy.jpeg" alt="A very soft, cozy room. Lots of light, white walls with a soft color theme. Fuzzy rugs and pretty full">
+        <br>
+        <button id="q1a1">Bright room</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/Dark.webp" alt=" A more sophisticated and closed-off room, with dark, bluish tones and a night light spread across the ceiling">
+        <br>
+        <button id="q1a2">Dark room</button>
+      </div>
+
+    </div> 
+    
+    <h2>You're about to order some lunch. What meal do you order?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/Pasta.jpeg" alt="A plate of cheesy chicken pasta, with parsley sprinkled at the top for a nice finish">
+        <br>
+        <button id="q2a1">Cheesy Chicken Pasta</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/Burgers.jpeg" alt="A wonderfully cooked cheeseburger with an iced cold glass of Coca Cola, and a side of fries.">
+        <br>
+        <button id="q2a2">Cheeseburger, Fries and Soda.</button>
+      </div>
+
+    </div> 
+    
+    <h2>Which makeup look do you prefer?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/Natural.webp" alt="A picture of Madison Beer in minimal makeup; no-makeup makeup look/ Everyday natural makeup">
+        <br>
+        <button id="q3a1">Natural Look</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/Glam.jpeg" alt="A picture of a model named Rebecca Manslow, with glammed, full makeup.">
+        <br>
+        <button id="q3a2">Glam Look</button>
+      </div>
+
+    </div> 
+    
+    <h2 id="result">Your result is...</h2>
+
+    <button id="restart">Restart</button>
+    
+  </main>
+  </body>
+</html>
